@@ -23,14 +23,17 @@ tic-tac-toe/
 ├── README.md
 └── screenshot.png
 
+## 🌐 Live Demo
+
+👉 [Play Tic-Tac-Toe Game](https://vismayavinod47.github.io/tic-tac-toe/)
+
 
 ## 🚀 How to Play
 1. Clone or download this repository.
 2. Open `index.html` in any web browser.
 3. Start playing with a friend!
 
-## 📸 Screenshot
-> *(Optional: Add a screenshot here if you want)*
+
 
 ## 🛠️ Technologies Used
 - HTML
