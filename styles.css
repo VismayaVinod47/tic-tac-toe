@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: black;
+    color: white;
+    height: 75px;
+    font-size: 27px;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    font-family: "Roboto", sans-serif;
+}
+
+nav ul{
+    list-style-type: none;
+}
+.gamecontainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 10vw); /* 3 columns */
+    grid-template-rows: repeat(3, 10vw); 
+    font-family: "Roboto", sans-serif;
+}
+.box{
+    border: 2px solid black;
+    font-size: 8vw;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box:hover{
+    background-color: rgb(215, 191, 238);
+}
+.gameinfo{
+    padding: 34px;
+    font-family: "Baloo Bhaina 2", sans-serif;
+}
+.image img{
+    width: 0;
+    transition: width is ease-in-out;
+}
+.bt-0{
+    border-top: 0;
+}
+.bb-0{
+    border-bottom: 0;
+}
+.bl-0{
+    border-left: 0;
+}
+.br-0{
+    border-right: 0;
+}
+#reset{
+    margin-left: 16px;
+    padding: 5px 20px 5px 20px;
+    background-color: rgb(222, 120, 222);
+    font-size: 17px;
+    border-radius: 9px;
+    cursor: pointer;
+    border: none;
+
+}
+.turn{
+    font-size: 25px;
+}
+h1{
+    margin-bottom: 12px;
+}
+.line{
+    position: absolute;
+    background-color: rgb(241, 117, 195);
+    width: 0vw;
+    height: 3px;
+    transition: width 1s ease-in-out;
+    
+}
+@media screen and (max-width: 950px) {
+    .gamecontainer{
+        flex-wrap: wrap;
+    }
+    .gameinfo{
+        margin-top: 34px;
+    }
+    .gameinfo h1{
+        font-size: 2.5rem;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: repeat(3, 20vw);
+        grid-template-rows: repeat(3, 20vw);
+        font-family: "Roboto", sans-serif;
+    }
+    .box{
+        font-size: 10vw;
+    }
+  }
