@@ -10,11 +10,11 @@ A simple and fun **Tic-Tac-Toe** game built using **HTML, CSS, and JavaScript**.
 - 🧠 Win condition detection
 - 🚫 Draw detection
 - 🔄 Reset button to restart game
-- 💡 Winning line highlight (optional)
+- 💡 Winning line highlight 
 - 📱 Responsive design (works on mobile too)
 
 ---
-![Game Screenshot](screenshot.png)
+![Game Screenshot](Screenshot.png)
 
 tic-tac-toe/
 ├── index.html
