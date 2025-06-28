@@ -84,9 +84,6 @@ h1{
     
 }
 @media screen and (max-width: 950px) {
-    .line{
-        display:none;
-    }
     .gamecontainer{
         flex-wrap: wrap;
     }
@@ -104,6 +101,9 @@ h1{
     }
     .box{
         font-size: 10vw;
+    }
+    .line{
+        display:none;
     }
     
   }
