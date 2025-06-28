@@ -102,4 +102,6 @@ h1{
     .box{
         font-size: 10vw;
     }
+    .line{
+        display: none;
   }
